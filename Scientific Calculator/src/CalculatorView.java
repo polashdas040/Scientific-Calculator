@@ -992,6 +992,7 @@ public class CalculatorView extends javax.swing.JFrame {
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         if (jRadioButton1.isSelected()) {
             jRadioButton1.setText("ON");
+             display.setText("0");
             b0.setEnabled(true);
             b1.setEnabled(true);
             b2.setEnabled(true);
@@ -1034,7 +1035,7 @@ public class CalculatorView extends javax.swing.JFrame {
             bxy.setEnabled(true);
         } else {
             jRadioButton1.setText("OFF");
-            display.setText("0");
+            display.setText("");
             b0.setEnabled(false);
             b1.setEnabled(false);
             b2.setEnabled(false);
